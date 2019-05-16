@@ -1,0 +1,21 @@
+{
+    "name": "fictioner/express",
+    "description": "express search",
+    "keywords": ["express"],
+	"type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fictioner",
+            "email": "fictionboy@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fictioner\\Express\\": "src/"
+        }
+    }
+}
